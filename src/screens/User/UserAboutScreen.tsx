@@ -270,7 +270,7 @@ export default function UserAboutScreen() {
                             <View style={[styles.contactIconCircle, { backgroundColor: '#F0F9FF' }]}>
                                 <Ionicons name="call-outline" size={24} color={Colors.primary} />
                             </View>
-                            <Text style={[styles.contactValue, { color: Colors.primary }]}>+20 106 879 1700</Text>
+                            <Text style={[styles.contactValue, { color: Colors.primary ,writingDirection:"ltr" ,textAlign:"left"},]}>+20 106 879 1700</Text>
                         </Pressable>
                     </View>
 
@@ -525,7 +525,7 @@ const styles = StyleSheet.create({
     contactValue: { fontSize: 18, fontWeight: '900' },
 
     footerBrand: { alignItems: 'center' },
-    footerLogo: { width: 80, height: 80, marginBottom: 10 },
+    footerLogo: { width: 180, height: 180, marginBottom: 10 },
     footerBrandName: { fontSize: 24, fontWeight: '900', color: Colors.primary },
     footerBrandSub: { fontSize: 12, color: '#475569', letterSpacing: 2, marginBottom: 20 },
     copyright: { fontSize: 12, color: '#64748B', textAlign: 'center', marginBottom: 5 },

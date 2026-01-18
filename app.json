@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Medicall Home",
+    "name": "Medical Home",
     "slug": "medicall-home",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/logo.png",
+    "icon": "./src/assets/icon.png",
     "scheme": "medicallhome",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,

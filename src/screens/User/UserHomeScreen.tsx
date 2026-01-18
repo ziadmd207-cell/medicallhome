@@ -167,7 +167,7 @@ export default function UserHomeScreen() {
                 {/* اللوجو الجديد من الملفات */}
                 <Image
                     source={require("../../assets/logo.png")}
-                    style={{ width: 45, height: 45, borderRadius: 12 }}
+                    style={{ width: 80, height: 80, borderRadius: 12 }}
                 />
             </View>
 
@@ -292,10 +292,10 @@ export default function UserHomeScreen() {
                             <View style={styles.logoCircleSmall}>
                                 <Image
                                     source={require("../../assets/logo.png")}
-                                    style={{ width: 60, height: 60, borderRadius: 15 }}
+                                    style={{ width: 200, height: 200, borderRadius: 15 }}
                                 />
                             </View>
-                            <Text style={styles.menuTitle}>Medicall Home</Text>
+                            <Text style={styles.menuTitle}>Medical Home</Text>
                             <Text style={{ color: '#94A3B8', fontSize: 12, marginBottom: 10 }}>رعايتكم هي مهمتنا</Text>
                             <View style={styles.dividerMenu} />
 
